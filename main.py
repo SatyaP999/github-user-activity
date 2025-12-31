@@ -6,7 +6,7 @@ def main():
             user_name = sys.argv[-1]
             print(f"Fetching activity for {sys.argv[-1]}")
             get_events(username=user_name)
-            print_user_activity()
+            print_event_summary()
         else:
             print(f"Please provide a username..")
 
